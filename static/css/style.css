@@ -8,13 +8,18 @@
     text-align: center;
     padding: 10px;
 }
-
+.tile-container{
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .tile {
-    display: inline-block;
-    min-height: 100px;
-    min-width: 100px;
+    min-height: 400px;
+    min-width: 400px;
     border-radius: 20px;
     background-color: green;
+    margin: 16px;
 }
 .bg-blue {
     background-color: blue;

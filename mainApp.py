@@ -23,8 +23,13 @@ def color(num,colors):
         return render_template("index.html",boxes=int(num),color="blue") 
     return render_template("index.html",boxes=int(num),color=colors)
 
+@app.route("/")
+def root():
+    return render_template("base.html")
 
-
+@app.route("/child")
+def child():
+    return render_template("child.html")
 
 
 
