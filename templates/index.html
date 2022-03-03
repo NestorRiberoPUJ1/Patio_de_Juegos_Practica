@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="main-h1" style="text-align: center;">Welcome!</h1>
+
+    <div class="tile-container">
+        {% for x in range(boxes) %}
+        {% if(color=="blue")%}
+        <div class="tile"
+            style="background-color: blue; display: inline-block; width: 400px; height: 400px; border-radius: 20px;">
+        </div>
+        {%endif%}
+        {% if(color=="red")%}
+        <div class="tile"
+            style="background-color: red; display: inline-block; width: 400px; height: 400px; border-radius: 20px;">
+        </div>
+        {%endif%}
+        {% if(color=="green")%}
+        <div class="tile"
+            style="background-color: green; display: inline-block; width: 400px; height: 400px; border-radius: 20px;">
+        </div>
+        {%endif%}
+        {% endfor %}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-h1 {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+}
+
+.tile {
+    display: inline-block;
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 20px;
+    background-color: green;
+}
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
